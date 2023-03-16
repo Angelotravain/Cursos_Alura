@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas width="600" height="400"></canvas>
+    <script>
+        function desenhaQuadradoVerde(position1)
+        {
+        var tela = document.querySelector('canvas');
+        var pincel = tela.getContext('2d');
+
+        pincel.fillStyle = 'green';
+        pincel.fillRect(position1, 0, 50, 50);
+        pincel.fillStroke = 'black';
+        pincel.strokeRect(position1, 0, 50, 50);
+
+        }
+
+        desenhaQuadradoVerde(0);
+        desenhaQuadradoVerde(50);
+        desenhaQuadradoVerde(100);
+        desenhaQuadradoVerde(150);
+
+        /*
+        Quando não definimos a cor do stroke a cor padrão utilizada é black. No entanto, para mudarmos a cor do stroke para uma cor diferente de preto, precisamos realizar essa operação através da propriedade strokeStyle. Exemplo:
+
+pincel.strokeStyle = 'red'
+
+O código acima adotará a cor vermelha para o stroke.
+        */
+    </script>
+    
+</body>
+</html>
