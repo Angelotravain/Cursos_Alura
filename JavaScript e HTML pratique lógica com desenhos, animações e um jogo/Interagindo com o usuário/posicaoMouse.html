@@ -1,0 +1,22 @@
+
+<canvas width="600" height="400"></canvas>
+
+<script>
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+
+    pincel.fillStyle = 'grey';
+    pincel.fillRect(0,0,600,400);
+
+    function exibirAlerta(evento){
+        alert('Exibe Alerta');
+        console.log(evento);
+        
+    }
+
+    tela.onclick = exibirAlerta;
+
+    /*Se abrir e fechar parenteses ele executa a função,
+    se não colocar ele só exibe ao executar a função
+    no caso com onclick */
+</script>
