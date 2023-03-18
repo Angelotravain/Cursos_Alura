@@ -10,7 +10,7 @@
     <canvas width="600" height="400"></canvas>
     <script>
 
-        //Função de criação de um quadrado 
+        //Função de criação de um quadrado
         function desenhaQuadrado(position1, position2, color1)
         {
         var tela = document.querySelector('canvas');
@@ -23,11 +23,18 @@
 
         }
 
-        desenhaQuadrado(0, 0 , 'green');
-        desenhaQuadrado(50, 0, 'green');
-        desenhaQuadrado(100, 0, 'green');
-        desenhaQuadrado(150, 0, 'green');
 
+var valor = 0;
+        while(valor < 600){
+            desenhaQuadrado(valor, 0 , 'green');
+            desenhaQuadrado(valor, 50 , 'red');
+            desenhaQuadrado(valor, 150 , 'blue');
+            //valor += 50;
+        }
+  
+//  for(var x = 0; x <= 600; x += 50){
+//     desenhaQuadrado(x, 0, 'green');
+//  }
         /*
         Quando não definimos a cor do stroke a cor padrão utilizada é black. No entanto, para mudarmos a cor do stroke para uma cor diferente de preto, precisamos realizar essa operação através da propriedade strokeStyle. Exemplo:
 
@@ -36,6 +43,6 @@ pincel.strokeStyle = 'red'
 O código acima adotará a cor vermelha para o stroke.
         */
     </script>
-    
+
 </body>
 </html>
