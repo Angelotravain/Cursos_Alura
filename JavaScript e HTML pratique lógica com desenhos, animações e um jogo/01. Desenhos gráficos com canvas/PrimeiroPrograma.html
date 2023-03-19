@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
 </head>
 
 <!--Desenhando Gráficos com Canvas -->
+
 <body>
     <canvas width="600" height="400"></canvas>
     <script>
@@ -15,14 +17,14 @@
         let pincel = tela.getContext('2d');
 
         pincel.fillStyle = 'lightgrey';
-        pincel.fillRect(0,0,600,400);
+        pincel.fillRect(0, 0, 600, 400);
 
         pincel.fillStyle = 'green';
-        pincel.fillRect(0,0,200,400);
+        pincel.fillRect(0, 0, 200, 400);
 
         pincel.fillStyle = 'red';
-        pincel.fillRect(400,0,200,400);
-        
+        pincel.fillRect(400, 0, 200, 400);
+
         pincel.fillStyle = 'yellow';
         pincel.beginPath();
         pincel.moveTo(300, 200);
@@ -32,9 +34,10 @@
 
         pincel.fillStyle = 'blue';
         pincel.beginPath();
-        pincel.arc(300, 200, 50, 0, 2*3.14);
+        pincel.arc(300, 200, 50, 0, 2 * 3.14);
         pincel.fill();
 
     </script>
 </body>
+
 </html>

@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <canvas width="600" height="400"></canvas>
     <script>
 
         //Função de criação de um quadrado 
-        function desenhaQuadrado(position1, position2, color1)
-        {
-        var tela = document.querySelector('canvas');
-        var pincel = tela.getContext('2d');
+        function desenhaQuadrado(position1, position2, color1) {
+            var tela = document.querySelector('canvas');
+            var pincel = tela.getContext('2d');
 
-        pincel.fillStyle = color1;
-        pincel.fillRect(position1, position2, 50, 50);
-        pincel.fillStroke = 'black';
-        pincel.strokeRect(position1, position2, 50, 50);
+            pincel.fillStyle = color1;
+            pincel.fillRect(position1, position2, 50, 50);
+            pincel.fillStroke = 'black';
+            pincel.strokeRect(position1, position2, 50, 50);
 
         }
 
-        desenhaQuadrado(0, 0 , 'green');
+        desenhaQuadrado(0, 0, 'green');
         desenhaQuadrado(50, 0, 'green');
         desenhaQuadrado(100, 0, 'green');
         desenhaQuadrado(150, 0, 'green');
@@ -36,6 +37,7 @@ pincel.strokeStyle = 'red'
 O código acima adotará a cor vermelha para o stroke.
         */
     </script>
-    
+
 </body>
+
 </html>
