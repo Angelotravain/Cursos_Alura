@@ -5,3 +5,4 @@
 Abaixo o nome dos cursos feitos até o momento:
 
 - JavaScript e HTML: pratique lógica com desenhos, animações e um jogo;
+- C# Collections parte 1 Listas, arrays, listas ligadas, dicionários e conjuntos;
