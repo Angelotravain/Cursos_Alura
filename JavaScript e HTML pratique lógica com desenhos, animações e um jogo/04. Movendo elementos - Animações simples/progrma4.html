@@ -5,7 +5,45 @@
     var tela = document.querySelector('canvas');
     var pincel = tela.getContext('2d');
 
-    pincel.fillStyle = 'grey';
+    pincel.fillStyle = 'white';
     pincel.fillRect(0,0,600,400);
+
+    function desenhaCirculo(x, y, raio){
+
+        pincel.fillStyle = 'blue';
+        pincel.beginPath();
+        pincel.arc(x, y, raio, 0, 2 * Math.PI);
+        pincel.fill();
+    }
+
+    function limpaTela(){
+
+        pincel.clearRect(0,0,600,400);
+
+    }
+
+    var x = 20;
+    function atualizaTela(){
+
+        limpaTela();
+        desenhaCirculo(x,20,10);
+        x++;
+        if(x == 559){
+            x = 20;
+        }
+
+    }
+    setInterval(atualizaTela, 10);
+
+    /*Programa que cria uma bolinha na tela e faz a chamada da função 
+    setInterval para movimentar a mesma e trazer uma animação a bolinha
+    com isso podemos fazer ela se mover 
+    
+    Adicionado uma validação para quando a bolinha atingir seu valor 
+    final a mesma recebe um valor de 20 para retornar ao inicio da tela 
+    
+    
+    pode ser utilizado para criar animações dentro de alguma página 
+    ou até mesmo portifólio */
 
 </script>
