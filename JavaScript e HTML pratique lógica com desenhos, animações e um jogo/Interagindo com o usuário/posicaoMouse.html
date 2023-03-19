@@ -8,13 +8,20 @@
     pincel.fillStyle = 'grey';
     pincel.fillRect(0,0,600,400);
 
-    function exibirAlerta(evento){
-        alert('Exibe Alerta');
-        console.log(evento);
+    function imprimeCirculos(evento){
+        var x = evento.pageX - tela.offsetLeft;
+        var y = evento.pageY - tela.offsetTop; // Pegando as coordenadas do navegador
+        pincel.fillStyle = 'blue';
+        pincel.beginPath();
+        pincel.arc(x, y, 10, 0, 2 * 3.14);
+        pincel.fill();
+
+        console.log(x + ' ' + y);
+        
         
     }
 
-    tela.onclick = exibirAlerta;
+    tela.onclick = imprimeCirculos;
 
     /*Se abrir e fechar parenteses ele executa a função,
     se não colocar ele só exibe ao executar a função
