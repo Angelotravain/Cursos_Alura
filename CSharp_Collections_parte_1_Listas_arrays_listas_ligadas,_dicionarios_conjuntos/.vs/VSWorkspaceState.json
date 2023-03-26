@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\01. Começando com arrays",
-    "\\01. Começando com arrays\\Atividade01"
+    "\\02_lista_de_colecoes_flexiveis",
+    "\\03_o_poder_dos_sets",
+    "\\04_dicionarios",
+    "\\05_listas_ligadas",
+    "\\06_qual_colecao_utilizar"
   ],
-  "SelectedNode": "\\01. Começando com arrays\\Atividade01\\OperacoesComArray.cs",
+  "SelectedNode": "\\02_lista_de_colecoes_flexiveis",
   "PreviewInSolutionExplorer": false
 }
