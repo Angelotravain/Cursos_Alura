@@ -1,0 +1,15 @@
+C:\Users\Angelo\Desktop\Itens\Cursos_Alura\C# Collections parte 1 Listas, arrays, listas ligadas, dicionários e conjuntos\01. Começando com arrays\Atividade01\bin\Debug\net6.0\Atividade01.exe
+C:\Users\Angelo\Desktop\Itens\Cursos_Alura\C# Collections parte 1 Listas, arrays, listas ligadas, dicionários e conjuntos\01. Começando com arrays\Atividade01\bin\Debug\net6.0\Atividade01.deps.json
+C:\Users\Angelo\Desktop\Itens\Cursos_Alura\C# Collections parte 1 Listas, arrays, listas ligadas, dicionários e conjuntos\01. Começando com arrays\Atividade01\bin\Debug\net6.0\Atividade01.runtimeconfig.json
+C:\Users\Angelo\Desktop\Itens\Cursos_Alura\C# Collections parte 1 Listas, arrays, listas ligadas, dicionários e conjuntos\01. Começando com arrays\Atividade01\bin\Debug\net6.0\Atividade01.dll
+C:\Users\Angelo\Desktop\Itens\Cursos_Alura\C# Collections parte 1 Listas, arrays, listas ligadas, dicionários e conjuntos\01. Começando com arrays\Atividade01\bin\Debug\net6.0\Atividade01.pdb
+C:\Users\Angelo\Desktop\Itens\Cursos_Alura\C# Collections parte 1 Listas, arrays, listas ligadas, dicionários e conjuntos\01. Começando com arrays\Atividade01\obj\Debug\net6.0\Atividade01.csproj.AssemblyReference.cache
+C:\Users\Angelo\Desktop\Itens\Cursos_Alura\C# Collections parte 1 Listas, arrays, listas ligadas, dicionários e conjuntos\01. Começando com arrays\Atividade01\obj\Debug\net6.0\Atividade01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Angelo\Desktop\Itens\Cursos_Alura\C# Collections parte 1 Listas, arrays, listas ligadas, dicionários e conjuntos\01. Começando com arrays\Atividade01\obj\Debug\net6.0\Atividade01.AssemblyInfoInputs.cache
+C:\Users\Angelo\Desktop\Itens\Cursos_Alura\C# Collections parte 1 Listas, arrays, listas ligadas, dicionários e conjuntos\01. Começando com arrays\Atividade01\obj\Debug\net6.0\Atividade01.AssemblyInfo.cs
+C:\Users\Angelo\Desktop\Itens\Cursos_Alura\C# Collections parte 1 Listas, arrays, listas ligadas, dicionários e conjuntos\01. Começando com arrays\Atividade01\obj\Debug\net6.0\Atividade01.csproj.CoreCompileInputs.cache
+C:\Users\Angelo\Desktop\Itens\Cursos_Alura\C# Collections parte 1 Listas, arrays, listas ligadas, dicionários e conjuntos\01. Começando com arrays\Atividade01\obj\Debug\net6.0\Atividade01.dll
+C:\Users\Angelo\Desktop\Itens\Cursos_Alura\C# Collections parte 1 Listas, arrays, listas ligadas, dicionários e conjuntos\01. Começando com arrays\Atividade01\obj\Debug\net6.0\refint\Atividade01.dll
+C:\Users\Angelo\Desktop\Itens\Cursos_Alura\C# Collections parte 1 Listas, arrays, listas ligadas, dicionários e conjuntos\01. Começando com arrays\Atividade01\obj\Debug\net6.0\Atividade01.pdb
+C:\Users\Angelo\Desktop\Itens\Cursos_Alura\C# Collections parte 1 Listas, arrays, listas ligadas, dicionários e conjuntos\01. Começando com arrays\Atividade01\obj\Debug\net6.0\Atividade01.genruntimeconfig.cache
+C:\Users\Angelo\Desktop\Itens\Cursos_Alura\C# Collections parte 1 Listas, arrays, listas ligadas, dicionários e conjuntos\01. Começando com arrays\Atividade01\obj\Debug\net6.0\ref\Atividade01.dll
