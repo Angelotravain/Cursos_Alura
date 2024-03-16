@@ -114,7 +114,8 @@ public class FilmeController : ControllerBase
             _context.SaveChanges();
             return NoContent();
         }
-        //         { modelo do json usado no patch
+        //{
+        //    modelo do json usado no patch
         //            "op": "replace", // operaçãp
         //    "path": "/titulo", // campo que será atualizado
         //    "value": "Avatar" // valor
